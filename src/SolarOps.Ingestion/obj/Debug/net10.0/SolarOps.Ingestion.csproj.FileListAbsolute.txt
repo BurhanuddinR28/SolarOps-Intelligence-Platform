@@ -1,0 +1,15 @@
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/bin/Debug/net10.0/SolarOps.Ingestion
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/bin/Debug/net10.0/SolarOps.Ingestion.deps.json
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/bin/Debug/net10.0/SolarOps.Ingestion.runtimeconfig.json
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/bin/Debug/net10.0/SolarOps.Ingestion.dll
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/bin/Debug/net10.0/SolarOps.Ingestion.pdb
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.AssemblyInfoInputs.cache
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.AssemblyInfo.cs
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.sourcelink.json
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.dll
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/refint/SolarOps.Ingestion.dll
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.pdb
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/SolarOps.Ingestion.genruntimeconfig.cache
+/Users/macbook/Documents/SolarOps-Intelligence-Platform/SolarOps-Intelligence-Platform/src/SolarOps.Ingestion/obj/Debug/net10.0/ref/SolarOps.Ingestion.dll
