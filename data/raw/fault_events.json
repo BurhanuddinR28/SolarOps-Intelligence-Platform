@@ -1,0 +1,702 @@
+[
+  {
+    "SubId": "FS-2026-0823",
+    "Timestamp": "2026-08-08 11:07:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0504",
+    "Timestamp": "2026-08-02 13:05:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0549",
+    "Timestamp": "2026-08-06 21:45:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0175",
+    "Timestamp": "2026-08-04 20:20:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0777",
+    "Timestamp": "2026-08-16 19:07:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0804",
+    "Timestamp": "2026-08-02 06:09:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0885",
+    "Timestamp": "2026-08-18 14:34:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0314",
+    "Timestamp": "2026-08-20 03:45:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0690",
+    "Timestamp": "2026-08-20 03:38:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0548",
+    "Timestamp": "2026-08-27 06:11:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0103",
+    "Timestamp": "2026-08-24 17:33:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0166",
+    "Timestamp": "2026-08-17 19:20:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0880",
+    "Timestamp": "2026-08-03 00:58:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0262",
+    "Timestamp": "2026-08-20 19:27:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0265",
+    "Timestamp": "2026-08-09 10:26:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0618",
+    "Timestamp": "2026-08-08 18:36:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0315",
+    "Timestamp": "2026-08-15 08:56:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0134",
+    "Timestamp": "2026-08-16 21:04:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0923",
+    "Timestamp": "2026-08-11 04:43:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0064",
+    "Timestamp": "2026-08-30 07:07:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0586",
+    "Timestamp": "2026-08-10 08:27:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0658",
+    "Timestamp": "2026-08-21 17:12:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0136",
+    "Timestamp": "2026-08-23 10:39:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0170",
+    "Timestamp": "2026-08-24 23:29:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0340",
+    "Timestamp": "2026-08-30 21:25:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0927",
+    "Timestamp": "2026-08-17 07:57:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0102",
+    "Timestamp": "2026-08-26 20:18:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0703",
+    "Timestamp": "2026-08-22 05:45:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0727",
+    "Timestamp": "2026-08-19 07:48:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0434",
+    "Timestamp": "2026-08-08 09:46:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0200",
+    "Timestamp": "2026-08-14 18:11:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0358",
+    "Timestamp": "2026-08-17 05:42:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0547",
+    "Timestamp": "2026-08-11 16:16:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0400",
+    "Timestamp": "2026-08-26 15:42:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0729",
+    "Timestamp": "2026-08-05 02:40:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0632",
+    "Timestamp": "2026-08-09 20:04:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0068",
+    "Timestamp": "2026-08-14 11:59:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0122",
+    "Timestamp": "2026-08-10 18:00:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0683",
+    "Timestamp": "2026-08-15 03:20:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0575",
+    "Timestamp": "2026-08-13 14:52:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0517",
+    "Timestamp": "2026-08-13 03:50:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0851",
+    "Timestamp": "2026-08-16 02:52:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0360",
+    "Timestamp": "2026-08-02 01:55:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0130",
+    "Timestamp": "2026-08-17 16:11:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0319",
+    "Timestamp": "2026-08-05 10:54:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0949",
+    "Timestamp": "2026-08-08 21:51:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0288",
+    "Timestamp": "2026-08-21 13:54:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0031",
+    "Timestamp": "2026-08-03 02:32:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0328",
+    "Timestamp": "2026-08-19 10:00:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0043",
+    "Timestamp": "2026-08-25 04:47:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0762",
+    "Timestamp": "2026-08-11 20:29:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0189",
+    "Timestamp": "2026-08-19 06:08:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0590",
+    "Timestamp": "2026-08-16 23:44:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0805",
+    "Timestamp": "2026-08-26 18:14:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0637",
+    "Timestamp": "2026-08-23 04:57:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0932",
+    "Timestamp": "2026-08-02 23:40:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0159",
+    "Timestamp": "2026-08-19 13:27:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0177",
+    "Timestamp": "2026-08-16 02:33:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0976",
+    "Timestamp": "2026-08-18 00:24:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0969",
+    "Timestamp": "2026-08-10 19:44:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0569",
+    "Timestamp": "2026-08-27 14:24:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0711",
+    "Timestamp": "2026-08-17 10:13:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0208",
+    "Timestamp": "2026-08-06 09:12:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0954",
+    "Timestamp": "2026-08-05 13:20:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0743",
+    "Timestamp": "2026-08-04 07:12:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0503",
+    "Timestamp": "2026-08-01 20:25:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0427",
+    "Timestamp": "2026-08-17 23:24:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0803",
+    "Timestamp": "2026-08-23 10:13:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0497",
+    "Timestamp": "2026-08-02 01:15:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0941",
+    "Timestamp": "2026-08-01 03:13:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0192",
+    "Timestamp": "2026-08-06 10:05:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0574",
+    "Timestamp": "2026-08-14 02:22:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0627",
+    "Timestamp": "2026-08-16 16:34:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0164",
+    "Timestamp": "2026-08-06 23:49:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0527",
+    "Timestamp": "2026-08-24 13:47:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-1000",
+    "Timestamp": "2026-08-18 00:52:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0895",
+    "Timestamp": "2026-08-18 23:56:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0326",
+    "Timestamp": "2026-08-19 15:55:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0516",
+    "Timestamp": "2026-08-24 16:08:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0253",
+    "Timestamp": "2026-08-05 07:18:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0244",
+    "Timestamp": "2026-08-13 07:52:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0970",
+    "Timestamp": "2026-08-25 04:15:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0226",
+    "Timestamp": "2026-08-21 09:32:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0485",
+    "Timestamp": "2026-08-02 00:57:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0988",
+    "Timestamp": "2026-08-25 17:40:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0508",
+    "Timestamp": "2026-08-26 16:15:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0672",
+    "Timestamp": "2026-08-09 12:48:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0924",
+    "Timestamp": "2026-08-06 13:29:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0858",
+    "Timestamp": "2026-08-29 14:19:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0704",
+    "Timestamp": "2026-08-03 16:13:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0837",
+    "Timestamp": "2026-08-03 10:02:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0981",
+    "Timestamp": "2026-08-10 16:44:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0101",
+    "Timestamp": "2026-08-26 14:22:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0003",
+    "Timestamp": "2026-08-02 19:42:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0506",
+    "Timestamp": "2026-08-22 07:45:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0495",
+    "Timestamp": "2026-08-02 22:42:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0942",
+    "Timestamp": "2026-08-07 06:55:00",
+    "FaultReason": "Tool malfunction",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0640",
+    "Timestamp": "2026-08-16 14:57:00",
+    "FaultReason": "Overtemperature",
+    "ToolName": "Flasher",
+    "ToolLine": "B"
+  },
+  {
+    "SubId": "FS-2026-0090",
+    "Timestamp": "2026-08-09 10:45:00",
+    "FaultReason": "Overvoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "A"
+  },
+  {
+    "SubId": "FS-2026-0745",
+    "Timestamp": "2026-08-11 09:38:00",
+    "FaultReason": "Undervoltage",
+    "ToolName": "Boiler",
+    "ToolLine": "B"
+  }
+]
