@@ -26,5 +26,5 @@ CREATE TABLE IVCurves(
     ReadingId INT NOT NULL,
     FOREIGN KEY (ReadingId) REFERENCES PanelReadings(ReadingId),
     Voltage FLOAT,
-    Current FLOAT
+    CurrentAmp FLOAT
 )
