@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolarOps.Ingestion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+222a69af71d5bbd094b019f598afe04496148570")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01fc5ac3cfd5c2c0538a2877ff974b359183dbc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolarOps.Ingestion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolarOps.Ingestion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
