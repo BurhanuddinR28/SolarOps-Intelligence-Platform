@@ -12,30 +12,53 @@ using var reader = new StreamReader(csvPath);
 using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
 var records = csv.GetRecords<SolarOps.Ingestion.Models.PanelReading>().ToList();
 Console.WriteLine($"Read {records.Count} records from csv");
-int inserted=0;
-int skipped=0;
-foreach(var record in records)
+using var countCommand = new SqlCommand("SELECT COUNT(*) FROM PanelReadings", connection);
+int existingPanels = (int)countCommand.ExecuteScalar()!;
+int inserted = 0;
+int skipped = 0;
+if (existingPanels == 0)
 {
-    if(string.IsNullOrEmpty(record.SubId) || record.Timestamp == default)
+    foreach (var record in records)
     {
-        skipped++;
-        continue;
-    }
-    using var command = new SqlCommand(@"
+        if (string.IsNullOrEmpty(record.SubId) || record.Timestamp == default)
+        {
+            skipped++;
+            continue;
+        }
+        using var command = new SqlCommand(@"
         INSERT INTO PanelReadings (subID, Timestamp, ReadTime, Wattage, PlantId, ToolId, PassFail, CreatedAt)
         VALUES (@SubId, @Timestamp, @ReadTime, @Wattage, @PlantId, @ToolId, @PassFail, @CreatedAt)", connection);
 
         command.Parameters.AddWithValue("@SubId", record.SubId);
         command.Parameters.AddWithValue("@Timestamp", record.Timestamp);
-        command.Parameters.AddWithValue("@ReadTime", (object?)record.ReadTime?? DBNull.Value);
-        command.Parameters.AddWithValue("@Wattage", (object?)record.Wattage??DBNull.Value);
+        command.Parameters.AddWithValue("@ReadTime", (object?)record.ReadTime ?? DBNull.Value);
+        command.Parameters.AddWithValue("@Wattage", (object?)record.Wattage ?? DBNull.Value);
         command.Parameters.AddWithValue("@CreatedAt", record.CreatedAt);
-        command.Parameters.AddWithValue("@PassFail", (object?)record.PassFail??DBNull.Value);
+        command.Parameters.AddWithValue("@PassFail", (object?)record.PassFail ?? DBNull.Value);
         command.Parameters.AddWithValue("@PlantId", 1);
         command.Parameters.AddWithValue("@ToolId", 1);
 
         command.ExecuteNonQuery();
         inserted++;
+    }
 }
+else
+{
+    Console.WriteLine("PanelReadings already loaded, skipping panel insert");
+}
+var csvIdToSubId = records.ToDictionary(r => r.ReadingId, r => r.SubId);
+Console.WriteLine($"CSV lookup: {csvIdToSubId.Count} entries");
+
+var subIdToSqlId = new Dictionary<string, int>();
+using (var lookupCommand = new SqlCommand("SELECT ReadingId, SubId FROM PanelReadings", connection))
+using (var lookupReader = lookupCommand.ExecuteReader())
+{
+    while (lookupReader.Read())
+    {
+        subIdToSqlId[lookupReader.GetString(1)] = lookupReader.GetInt32(0);
+    }
+}
+Console.WriteLine($"SQL lookup: {subIdToSqlId.Count} entries");
+Console.WriteLine($"CSV ID 1 → {csvIdToSubId[1]} → SQL ID {subIdToSqlId[csvIdToSubId[1]]}");
 Console.WriteLine($"Inserted: {inserted} | Skipped: {skipped}");
 
