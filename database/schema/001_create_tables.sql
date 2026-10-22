@@ -28,3 +28,11 @@ CREATE TABLE IVCurves(
     Voltage FLOAT,
     CurrentAmp FLOAT
 )
+CREATE TABLE FaultEvents(
+    FaultId INT Identity(1,1) PRIMARY KEY,
+    SubId VARCHAR(50) NOT NULL,
+    Timestamp DATETIME NOT NULL,
+    FaultReason VARCHAR(100) NOT NULL,
+    ToolName VARCHAR(100) NOT NULL,
+    ToolLine VARCHAR(100) NOT NULL
+)
