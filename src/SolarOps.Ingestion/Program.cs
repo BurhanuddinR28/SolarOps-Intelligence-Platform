@@ -1,4 +1,5 @@
-﻿using CsvHelper;
+﻿using System.Data;
+using CsvHelper;
 using System.Globalization;
 using Microsoft.Data.SqlClient;
 
@@ -60,5 +61,38 @@ using (var lookupReader = lookupCommand.ExecuteReader())
 }
 Console.WriteLine($"SQL lookup: {subIdToSqlId.Count} entries");
 Console.WriteLine($"CSV ID 1 → {csvIdToSubId[1]} → SQL ID {subIdToSqlId[csvIdToSubId[1]]}");
+var ivPath = "../../data/raw/iv_curves.csv";
+using var ivReader = new StreamReader(ivPath);
+using var ivCsv = new CsvReader(ivReader, CultureInfo.InvariantCulture);
+var ivRecords = ivCsv.GetRecords<SolarOps.Ingestion.Models.IVCurve>().ToList();
+Console.WriteLine($"Read {ivRecords.Count} IV rows from csv");
+var ivTable = new DataTable();
+ivTable.Columns.Add("ReadingId", typeof(int));
+ivTable.Columns.Add("Voltage", typeof(double));
+ivTable.Columns.Add("CurrentAmp", typeof(double));
+
+var failures = new List<string>();
+
+foreach (var iv in ivRecords)
+{
+    if (csvIdToSubId.TryGetValue(iv.ReadingId, out var subId) && subIdToSqlId.TryGetValue(subId, out var sqlId))
+    {
+        ivTable.Rows.Add(sqlId, (object?)iv.Voltage ?? DBNull.Value, (object?)iv.CurrentAmp ?? DBNull.Value);
+    }
+    else
+    {
+        failures.Add($"IVId {iv.IVId}: CSV ReadingId {iv.ReadingId} could not be translated");
+    }
+}
+
+Console.WriteLine($"Translated {ivTable.Rows.Count} rows, {failures.Count} failures");
+
+if (failures.Count > 0)
+{
+    Console.WriteLine("Aborting IV load. First failures:");
+    foreach (var f in failures.Take(5)) Console.WriteLine(f);
+    return;
+}
 Console.WriteLine($"Inserted: {inserted} | Skipped: {skipped}");
+
 
