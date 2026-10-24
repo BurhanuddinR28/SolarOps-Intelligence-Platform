@@ -7,7 +7,11 @@ namespace SolarOps.Api.Controllers
     [Route("[controller]")]
     public class PanelsController : ControllerBase
     {
-        private readonly string _connectionString = "Server=localhost,1433;Database=SolarOps;User Id=sa;Password=SolarOps123;TrustServerCertificate=True;";
+        private readonly string _connectionString;
+        public PanelsController(IConfiguration config)
+{
+    _connectionString = config.GetConnectionString("SolarOps")!;
+}
         [HttpGet]
         public IActionResult Get()
         {

@@ -4,7 +4,8 @@ using System.Globalization;
 using Microsoft.Data.SqlClient;
 
 //defining the connection string
-var connectionString = "Server=localhost,1433;Database=SolarOps;User Id=sa;Password=SolarOps123;TrustServerCertificate=True;";
+var connectionString = Environment.GetEnvironmentVariable("SOLAROPS_CONNECTION")
+    ?? throw new InvalidOperationException("Set SOLAROPS_CONNECTION first");
 using var connection = new SqlConnection(connectionString);
 connection.Open();
 Console.WriteLine("Connected to SQL server successfully");
