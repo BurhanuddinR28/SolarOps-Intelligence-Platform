@@ -9,9 +9,9 @@ namespace SolarOps.Api.Controllers
     {
         private readonly string _connectionString;
         public PanelsController(IConfiguration config)
-{
-    _connectionString = config.GetConnectionString("SolarOps")!;
-}
+        {
+            _connectionString = config.GetConnectionString("SolarOps")!;
+        }
         [HttpGet]
         public IActionResult Get()
         {
@@ -22,20 +22,20 @@ namespace SolarOps.Api.Controllers
             using var command = new SqlCommand("SELECT TOP 100 ReadingId, SubId, Timestamp, ReadTime, Wattage, PlantId, ToolId, PassFail, CreatedAt FROM PanelReadings", connection);
             using var reader = command.ExecuteReader();
 
-            while(reader.Read())
+            while (reader.Read())
             {
                 readings.Add(new PanelReading
-{
-    ReadingId = reader.GetInt32(0),
-    SubId = reader.GetString(1),
-    Timestamp = reader.GetDateTime(2),
-    ReadTime = reader.IsDBNull(3) ? null : (float?)reader.GetDouble(3),
-    Wattage = reader.IsDBNull(4) ? null : (float?)reader.GetDouble(4),
-    PlantId = reader.GetInt32(5),
-    ToolId = reader.GetInt32(6),
-    PassFail = reader.IsDBNull(7) ? null : reader.GetBoolean(7),
-    CreatedAt = reader.GetDateTime(8)
-});
+                {
+                    ReadingId = reader.GetInt32(0),
+                    SubId = reader.GetString(1),
+                    Timestamp = reader.GetDateTime(2),
+                    ReadTime = reader.IsDBNull(3) ? null : (float?)reader.GetDouble(3),
+                    Wattage = reader.IsDBNull(4) ? null : (float?)reader.GetDouble(4),
+                    PlantId = reader.GetInt32(5),
+                    ToolId = reader.GetInt32(6),
+                    PassFail = reader.IsDBNull(7) ? null : reader.GetBoolean(7),
+                    CreatedAt = reader.GetDateTime(8)
+                });
             }
             return Ok(readings);
         }

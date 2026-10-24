@@ -9,9 +9,9 @@ namespace SolarOps.Api.Controllers
     {
         private readonly string _connectionString;
         public FaultsController(IConfiguration config)
-            {
-                _connectionString = config.GetConnectionString("SolarOps")!;
-            }
+        {
+            _connectionString = config.GetConnectionString("SolarOps")!;
+        }
         [HttpGet]
         public IActionResult Get()
         {
@@ -22,7 +22,7 @@ namespace SolarOps.Api.Controllers
             using var command = new SqlCommand("SELECT TOP 100 FaultId, SubId, Timestamp, FaultReason, ToolName, ToolLine FROM FaultEvents", connection);
             using var reader = command.ExecuteReader();
 
-            while(reader.Read())
+            while (reader.Read())
             {
                 readings.Add(new FaultEvent
                 {
@@ -30,7 +30,7 @@ namespace SolarOps.Api.Controllers
                     SubId = reader.GetString(1),
                     Timestamp = reader.GetDateTime(2),
                     FaultReason = reader.GetString(3),
-                    ToolName  = reader.GetString(4),
+                    ToolName = reader.GetString(4),
                     ToolLine = reader.GetString(5)
 
                 });
